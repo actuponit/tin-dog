@@ -1,0 +1,139 @@
+section {
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.5;
+    width: 70%;
+}
+
+nav {
+    margin-bottom: 3em;
+}
+button {
+    margin: 2.7rem 1rem 0 0;
+}
+.navbar {
+    margin-left: 0;
+    padding-left: 0;
+}
+.navbar-brand {
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav-item {
+    padding-left: 30px;
+    font-size: small;
+}
+.btn-dark{
+    background-color: antiquewhite;
+    color: #343a40;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+#white-button:hover {
+    background-color: antiquewhite;
+}
+
+#iphone {
+    position: absolute;
+    max-width: 60%; 
+    transform: rotate(25deg);
+}
+
+/* Features */
+
+h3 {
+    font-family: 'Arial narrow', Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+ }
+p {
+    color: #8f8f8f;
+    font-size: smaller;   
+} 
+.feature{
+    text-align: center;
+    padding: 5%;
+}
+#features {
+    padding: 10%;
+    background: #fff;
+    position: relative;
+
+}
+
+/* Testimonals */
+
+#testimonials {
+    background-color: #343a40;
+    color: antiquewhite;
+    line-height: 2;
+    text-align: center;
+}
+.carousel-item{
+    padding: 7% 15%;    
+}
+.testimonial-image {
+    margin: 5% 5% 0;
+    width: 15%;
+    border-radius: 50%;
+}
+/* Press */
+#press {
+    background-color: #343a40;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.pressimage{
+    width: 10%;
+}
+
+/* Pricing */
+#pricing{
+    padding: 100px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+}
+.pricingtags{
+    text-align: center;
+    margin: 1%;
+}
+@media (max-width: 900px) {
+    #iphone {
+        position: static;
+        transform: rotate(0deg);
+    }
+    
+}
+/* CTA */
+
+#cta {
+    background-color: #343a40;
+    text-align: center;
+    padding: 20px;
+}
+ 
+#cta h3 {
+    color: antiquewhite;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 1rem;
+    text-align: center;
+}
